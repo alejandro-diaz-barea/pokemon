@@ -1,7 +1,7 @@
 class pokemon(id:Int,nombre:String,vida:Int,tipo:String) {
     var id = 0
         set(value) {
-            if(value<0){
+            if(value<=0){
                 throw Exception("El id no puede ser menor a 0")
             }
             else{
