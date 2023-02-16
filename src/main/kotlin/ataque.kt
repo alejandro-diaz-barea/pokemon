@@ -1,4 +1,4 @@
-class ataque(nombre:String,Tipo:String,fuerza:Int):tipo(Tipo) {
+class ataque(nombre:String, Tipo:String, fuerza:Int, TipoRespuesta: String):tipo(Tipo, TipoRespuesta) {
     var Nombre = " "
     var Fuerza = 0
         set(value) {
@@ -9,7 +9,7 @@ class ataque(nombre:String,Tipo:String,fuerza:Int):tipo(Tipo) {
                 field = value
             }
         }
-
+    var ataques = mutableListOf<String>("","","","")
     init {
         Nombre = nombre
         Fuerza = fuerza

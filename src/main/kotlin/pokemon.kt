@@ -1,4 +1,4 @@
-class pokemon(id:Int, nombre:String, vida:Int,Tipo: String): tipo(Tipo) {
+class pokemon(id:Int, nombre:String, vida:Int, Tipo: String, TipoRespuesta: String): tipo(Tipo, TipoRespuesta) {
     var id = 0
         set(value) {
             if(value<=0){
