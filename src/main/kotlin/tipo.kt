@@ -1,4 +1,4 @@
-class tipo(Tipo:String) {
+open class tipo(Tipo:String) {
     var tipos = mutableListOf<String>("acero", "agua", "bicho", "dragon", "electrico", "fantasma", "fuego", "hada", "hielo", "lucha",
         "normal", "planta", "psiquico", "roca", "siniestro", "tierra", "veneno", "volador")
     var tipo = " "

@@ -1,4 +1,4 @@
-class pokemon(id:Int,nombre:String,vida:Int,tipo:String) {
+class pokemon(id:Int, nombre:String, vida:Int,Tipo: String): tipo(Tipo) {
     var id = 0
         set(value) {
             if(value<=0){
@@ -10,13 +10,11 @@ class pokemon(id:Int,nombre:String,vida:Int,tipo:String) {
         }
     var nombre = " "
     var vida = 0
-    var tipo = " "
 
     init {
         this.id = id
         this.nombre = nombre
         this.vida = vida
-        this.tipo = tipo
         if(id<0){
             throw Exception("El id no puede ser menor a 0")
         }
@@ -25,6 +23,5 @@ class pokemon(id:Int,nombre:String,vida:Int,tipo:String) {
     override fun toString(): String {
         return "Hola mi nombre es $nombre, tengo $vida de vida y soy de tipo $tipo"
     }
-
 
 }
