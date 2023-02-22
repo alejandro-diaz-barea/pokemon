@@ -21,7 +21,8 @@ class pokemon(id:Int, nombre:String, vida:Int, Tipo: String, TipoRespuesta: Stri
     }
 
     override fun toString(): String {
-        return "Hola mi nombre es $nombre, tengo $vida de vida y soy de tipo $tipo"
+        return "pokemon(id=$id, nombre='$nombre', vida=$vida)"
     }
+
 
 }
