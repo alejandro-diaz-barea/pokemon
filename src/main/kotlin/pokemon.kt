@@ -25,4 +25,17 @@ class pokemon(id:Int, nombre:String, vida:Int, Tipo: String, TipoRespuesta: Stri
     }
 
 
+    fun comprobarEfecrtividad():Double{
+        if(tipo2 == "agua"){
+            if(tipo=="electrico"){
+                return 2.00
+            }
+            else{
+                return 0.0
+            }
+        }
+        else{
+            return 1.0
+        }
+    }
 }
