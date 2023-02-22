@@ -24,5 +24,6 @@ class pokemon(id:Int, nombre:String, vida:Int, Tipo: String, TipoRespuesta: Stri
         return "pokemon(id=$id, nombre='$nombre', vida=$vida)"
     }
 
-
+    fun recibirAtaque (ataque: ataque){
+    }
 }
