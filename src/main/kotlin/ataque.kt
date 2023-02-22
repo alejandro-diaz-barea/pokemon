@@ -18,6 +18,4 @@ class ataque(nombre:String, Tipo:String, fuerza:Int, TipoRespuesta: String):tipo
     override fun toString(): String {
         return "ataque(Nombre='$Nombre', Tipo='${tipo}ipo', Fuerza=$Fuerza)"
     }
-
-
 }
