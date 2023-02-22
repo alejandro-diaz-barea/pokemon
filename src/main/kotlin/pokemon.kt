@@ -24,6 +24,22 @@ class pokemon(id:Int, nombre:String, vida:Int, Tipo: String, TipoRespuesta: Stri
         return "pokemon(id=$id, nombre='$nombre', vida=$vida)"
     }
 
-    fun recibirAtaque (ataque: ataque){
+
+
+
+
+    fun comprobarEfecrtividad():Double{
+        if(tipo2 == "agua"){
+            if(tipo=="electrico"){
+                return 2.00
+            }
+            else{
+                return 0.0
+            }
+        }
+        else{
+            return 1.0
+        }
+
     }
 }
