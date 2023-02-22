@@ -4,4 +4,6 @@ fun main(args: Array<String>) {
 
     println(pokemon1.efectividad())
 
+   var tipo1 = tipo("fuego","agua")
+    println(tipo1)
 }
